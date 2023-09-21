@@ -1,0 +1,90 @@
+body
+{
+  color:black;
+  word-spacing: 0.2rem;
+  font-size: 2rem;
+  font-family: 'Roboto Mono', cursive;
+  font-size: large;
+  margin:0;
+  min-height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-image: url('https://images.unsplash.com/photo-1568581357391-c71a1675ef93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.container 
+{
+  border:2px solid;
+  padding:40px;
+  text-align: center;
+  border-radius:10px;
+  width:400px;
+  background-color:transparent;
+  backdrop-filter: blur(10px);
+  box-shadow: 5px 5px 10px black;
+}
+p 
+{
+  text-align:center;
+  margin-bottom:2em;
+}
+.container .box 
+{
+  width:100%;
+  display:flex;
+}
+.box div
+{
+  width:100%;
+}
+select {
+  width:80%;
+  height:32px;
+  font-size:20px;
+  cursor:pointer;
+  margin:10px;
+  border-radius:5px;
+  background-color:transparent;
+  backdrop-filter: blur(20px);
+  border:2px solid black;
+  color:black;
+}
+option
+{
+  color:black;
+  background-color:transparent; 
+}
+input 
+{
+  height:30px;
+  border-radius:5px;
+  border:2px solid black;
+  color:black;
+  background-color:transparent;
+  font-size:15px;
+  padding-left:10px;
+}
+.btn {
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
+}
+button {
+  height:40px;
+  width:100px;
+  border-radius:5px;
+  background-color:transparent;
+  border:2px solid black;
+  color:black;
+  font-family:'Roboto Mono';
+  font-size:15px;
+  cursor:pointer;
+  transition:200ms ease-in-out;
+}
+button:hover {
+  background-color:white;
+  color:black;
+}

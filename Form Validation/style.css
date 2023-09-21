@@ -1,0 +1,102 @@
+body 
+{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/background-img.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+}
+* 
+{
+    box-sizing: border-box;
+}
+.container 
+{
+    width: 400px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black;
+    padding:30px;
+}
+h1 
+{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color:white;
+}
+#register
+{
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    background-color: violet;
+    border:none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.input-group 
+{
+    margin-bottom: 15px;
+}
+.input-group input 
+{
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+    border: none;
+    padding-left: 20px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: bold;
+}
+.input-group label 
+{
+    color:white;
+}
+.input-group input:focus
+{
+    outline: 0;
+}
+#register:hover  
+{
+    background-color: rgb(236, 55, 236);
+}
+.error 
+{
+    color:red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.input-group.success input 
+{
+    border:2px solid green;
+}
+.input-group.error input 
+{
+    border:2px solid red;
+}
+.input-group .password-input 
+{
+    display: flex;
+}
+.input-group .password-input button 
+{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
